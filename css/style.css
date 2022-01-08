@@ -69,7 +69,7 @@
 
 .containerMain{
     margin: 20px;
-    padding: 30px;
+    padding: 20px 13px;
 }
 
 .encabezadosPaginas{
@@ -91,7 +91,7 @@
 .textoIndex{
     color: white;
     width: 100%;
-    margin: 20px;
+    margin: 20px 0px;
     padding: 50px;
     font-size: 30PX;
     font-family:'Oswald', sans-serif;
@@ -139,23 +139,41 @@ height: 250px;
 
 /*------ PAGINA DE DISEÑO GRAFICO ------*/
 
+.subtituloDiseñoGrafico{
+    font-family: 'Oswald' , sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
 .containerImg{
     display: flex;
     margin: 20px;
     padding: 30px;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
-.containerImg img{
+.containerImg .logosFila1{
     width: 20%;
-    height: 200px;
+    margin: 10px;
+    padding: 12PX;
+}
+
+.containerImg .logosFila2{
+    width: 20%;
     margin: 10px;
     padding: 12PX;
 }
 
 
 /*------ PAGINA DE FOTOGRAFIA Y VIDEO ------*/
+
+.textosWebs{
+    font-size: 25px;
+    font-family: 'Oswald' , sans-serif;
+    text-align: center;
+}
 
 .photoContainer{
     width: 100%;
@@ -177,9 +195,7 @@ height: 250px;
     width: 210px;
     height: 140px;
     justify-content: center;
-    transition: ease-in-out .4s
-    
-    
+    transition: ease-in-out .4s  
 }
 
 .photoContainer__galeryPhoto :hover{
@@ -205,7 +221,6 @@ height: 250px;
 }
 .carousel-control-next{
     margin: 60px;
-
 }
 
 
@@ -258,9 +273,7 @@ li{
  font-weight: 300;
  padding: 5px 3px;
  border-radius: 8px;
- cursor: pointer;
-
- 
+ cursor: pointer; 
 }
 
 .btnSubmit:hover{
@@ -322,3 +335,107 @@ li{
     transition: ease-in 0.1s;
     text-decoration: underline;
 }
+
+
+/* MEDIA QUERYS*/
+
+@media (max-width: 981px){
+    .subtituloDiseñoGrafico{
+        font-size: 25px;
+    }    
+}
+
+@media (max-width: 832px){
+    .subtituloDiseñoGrafico{
+        font-size: 20px;
+    }    
+}
+
+
+@media (max-width: 681px){
+    .subtituloDiseñoGrafico{
+        font-size: 20px;
+        text-align: left;
+    }    
+}
+
+/*MEDIA QUERYS LOGOS DISEÑOS GRAFICOS*/
+
+@media (max-width: 200px) {
+    .containerImg{
+        margin: 10px;
+        padding: 10px;
+    }
+}
+@media (max-width: 576px) {
+    .containerImg{
+       width: 100%;
+    } 
+}
+@media (min-width: 200px) {
+    .containerImg .logosFila1{
+        width: 100%;
+    }  
+}
+
+@media (min-width: 576px) {
+    .containerImg .logosFila1{
+        width: 40%;
+        padding: 0;
+        margin: 22px;
+    }
+}
+@media (min-width: 1046px) {
+    .containerImg .logosFila1{
+        width: 20%;  
+    }
+}
+
+/*MEDIA QUERYS FILA 2 */
+@media (max-width: 576px) {
+    .containerImg{
+       width: 100%;
+    } 
+}
+
+@media (min-width: 200px) {
+    .containerImg .logosFila2{
+        width: 100%;
+    }  
+}
+@media (min-width: 576px) {
+    .containerImg .logosFila2{
+        width: 40%;
+        padding: 0;
+        margin: 22px;
+    }
+}
+@media (min-width: 1046px) {
+    .containerImg .logosFila2{
+        width: 20%;  
+    }
+}
+
+/*MEDIA QUERYS FOTOGRAFIA Y VIDEO*/
+
+@media (max-width: 981px){
+    .textosWebs{
+        font-size: 20px;
+    }    
+}
+
+@media (max-width: 681px){
+    .textosWebs{
+        font-size: 15px;
+        text-align: left;
+    }    
+}
+
+@media (max-width: 832px){
+    .textosWebs{
+        font-size: 15px;
+    }    
+}
+
+
+
