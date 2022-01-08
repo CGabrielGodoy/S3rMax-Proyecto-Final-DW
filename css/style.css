@@ -148,7 +148,7 @@ height: 250px;
 .containerImg{
     display: flex;
     margin: 20px;
-    padding: 30px;
+    padding: 25px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
