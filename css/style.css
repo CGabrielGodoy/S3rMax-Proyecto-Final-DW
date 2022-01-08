@@ -340,7 +340,7 @@ li{
 }
 
 
-/* MEDIA QUERYS*/
+/*MEDIA QUERYS DISEÑOS WEB*/
 
 
 @media (max-width: 1081px) {
@@ -408,7 +408,7 @@ li{
     }
 }
 
-/*MEDIA QUERYS FILA 2 */
+/*MEDIA QUERYS FILA 2*/
 @media (max-width: 576px) {
     .containerImg{
        width: 100%;
@@ -435,19 +435,6 @@ li{
 
 /*MEDIA QUERYS FOTOGRAFIA Y VIDEO*/
 
-@media (max-width: 981px){
-    .textosWebs{
-        font-size: 20px;
-    }    
-}
-
-
-@media (max-width: 832px){
-    .textosWebs{
-        font-size: 15px;
-        
-    }    
-}
 
 @media (max-width: 681px){
     .textosFyV{
@@ -456,7 +443,7 @@ li{
     }  
 }
 
-/*------ MEDIA QUERYS PAG PAQUETES ------*/
+/*MEDIA QUERYS PAG PAQUETES*/
 
 @media (max-width: 740px) {
     .textoPaquetes{
