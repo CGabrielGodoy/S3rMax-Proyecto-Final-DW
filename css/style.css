@@ -111,6 +111,7 @@ height: 250px;
 .subTituloServicios{
     font-size: 20px;
     font-family: 'Oswald' , sans-serif;
+    text-align: center;
 }
 
 .containerMainServicios{
@@ -337,6 +338,17 @@ li{
     transform: scale(1.1);
     transition: ease-in 0.1s;
     text-decoration: underline;
+}
+
+/*------------------------------ MEDIA QUERYS ------------------------------*/
+
+/*MEDIA QUERYS PAGINA SERVICIOS*/
+
+@media (max-width: 815px) {
+    .subTituloServicios{
+        font-size: 20px;
+        text-align: left;
+    }
 }
 
 
